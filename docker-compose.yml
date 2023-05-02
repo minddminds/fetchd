@@ -29,7 +29,7 @@ services:
       MONIKER: node0
       CHAINID: localnet
       MNEMONIC: "boat leave enrich glare into second this model appear owner strong tail perfect fringe best still soup clap betray rigid bleak return minimum goddess"
-      PASSPHRASE: change-me-please
+      PASSPHRASE: testing
 
     volumes:
       - "setup-data:/setup"
@@ -50,7 +50,7 @@ services:
       MONIKER: node1
       CHAINID: localnet
       MNEMONIC: "question ski cancel busy census brush slush scissors ridge usual size fetch tortoise drum relax unlock chapter chapter electric surge arm priority vibrant blue"
-      PASSPHRASE: change-me-please
+      PASSPHRASE: testing
 
     volumes:
       - "setup-data:/setup"
@@ -71,7 +71,7 @@ services:
       MONIKER: node2
       CHAINID: localnet
       MNEMONIC: "advance fatigue arm sentence champion tube half smoke beyond creek toddler blur measure ozone donkey live start address loan advance possible rough famous heavy"
-      PASSPHRASE: change-me-please
+      PASSPHRASE: testing
 
     links:
       - "node0"
